@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+/*Weights: 400, 600, 700*/
+
+body {
+    font-size: 0.875em;
+    font-family: "Inter", serif;
+    background-color: var(--Grey-900);
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+#social-link-card {
+    width: 327px;
+    height: 558px;
+    margin: 12% auto;
+    border-radius: 7px;
+    background-color: var(--Grey-800);
+}
+
+#social-link-card, #social-link-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#social-link-header {
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+}
+
+ #profile-image >  img {
+    max-width: 100%;
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 1em ;
+}
+
+#information > #social-link-title {
+    font-size: 1.7em;
+    color: var(--White);
+    margin-bottom: .5em;
+}
+
+#information > #sub-information-title {
+    font-size: 1em;
+    font-weight: 800;
+    color: var(--Green);
+    margin-bottom: 1em;
+}
+
+#social-sub-title {
+    color: var(--White);
+}
+
+#btn-column {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.3em;
+}
+
+#btn-column > .btn-links {
+    width: 250px;
+    height: 46px;
+    margin: .40em 0;
+    border-radius: 7px;
+    color: var(--White);
+    background-color: var(--Grey-700);
+    font-weight: 700;
+}
+
+#btn-column > .btn-links:hover {
+    background: var(--Green);
+    color: aliceblue;
+    transition: ease-in 1s background ;
+} 
+
+
+
+@media  (width: 1024px){
+    
+#social-link-card {
+    margin: 5% auto;
+}
+}
+
+
+@media  (width: 1280px){
+    
+    #social-link-card {
+        margin: 11% auto;
+    }
+}
