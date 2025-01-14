@@ -29,7 +29,7 @@ button {
 #social-link-card {
     width: 327px;
     height: 600px;
-    margin: 2em auto 0 auto;
+    margin: 15% auto 0 auto;
     border-radius: 7px;
     background-color: var(--Grey-800);
 }
