@@ -29,7 +29,7 @@ button {
 #social-link-card {
     width: 327px;
     height: 600px;
-    margin: 27% auto 0 auto;
+    margin: 5em auto;
     border-radius: 7px;
     background-color: var(--Grey-800);
 }
@@ -94,7 +94,7 @@ button {
 
 
 
-@media  (width: 1024px){
+@media  (min-width: 1024px){
     
 #social-link-card {
     margin: 5% auto;
@@ -104,9 +104,17 @@ button {
 }
 
 
-@media  (width: 1280px){
+@media  (min-width: 1366px){
     
     #social-link-card {
-        margin: 10.5% auto;
+        margin: 1% auto; 
+    }
+}
+
+
+@media  (min-width: 1440px){
+    
+    #social-link-card {
+        margin: 8% auto 2em auto; 
     }
 }
